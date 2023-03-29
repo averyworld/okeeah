@@ -1,0 +1,16 @@
+server:
+  port: 3333
+spring:
+  application:
+    name: gulimall-third-party
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+    #    oss配置
+    alicloud:
+      access-key: LTAI5tGQBmjdkpHmP1GDvvMa
+      secret-key: bO2GL6xVdjo1hKS76i30tE1jnpem9a
+      oss:
+        endpoint: oss-cn-beijing.aliyuncs.com
+        bucket: gulimall-comley
