@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -29,5 +30,18 @@
       <module name="newgulimal" target="1.8" />
       <module name="renren-fast" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="gulimall-common" options="-parameters" />
+      <module name="gulimall-coupon" options="-parameters" />
+      <module name="gulimall-gateway" options="-parameters" />
+      <module name="gulimall-member" options="-parameters" />
+      <module name="gulimall-order" options="-parameters" />
+      <module name="gulimall-product" options="-parameters" />
+      <module name="gulimall-thrid-party" options="-parameters" />
+      <module name="gulimall-ware" options="-parameters" />
+      <module name="renren-fast" options="-parameters" />
+    </option>
   </component>
 </project>
